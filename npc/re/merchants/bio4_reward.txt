@@ -10,141 +10,141 @@
 //============================================================
 lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 	if ((MaxWeight - Weight) < 2800 || !checkweight(1201, 1)) {
-		mes "^FF0000 Check up your inventory. You got too many items to carry out the quest. ^000000";
+		mes "^FF0000 กรุณาตรวจดูกระเป๋า. เจ้าต้องไม่พกของมามากเกินไปและหนักเกินไป. ^000000";
 		close;
 	}
 	mes "[Weird old man]";
-	mes "Phew, those young people nowadays, are so rude and have no manners.";
+	mes "ฟิ้ว, เด็กสมัยนี้, ไม่มีมารยาทเอาซะเลย.";
 	next;
-	if (select("Ignore him", "Talk with him") == 1) {
+	if (select("ทำเป็นไม่สนใจ", "คุยกับตาแก่") == 1) {
 		mes "[Weird old man]";
-		mes "You, very bad young man!";
+		mes "เจ้า, เจ้ามันเด็กกาก!";
 		close;
 	}
 	mes "["+ strcharinfo(0) +"]";
-	mes "Sir, are you alright??";
+	mes "Sir, สบายดีหรือเปล่า??";
 	next;
 	mes "[Weird old man]";
-	mes "....?? You are not like other young people. You have good manners! You know what happened to me..?";
+	mes "....?? เจ้าไม่เหมือนเด็กแถวนี้. เจ้าดูอ่อนน้อมมาก! เจ้าอยากรู้ว่าเกิดอะไรขึ้นกับข้าไหม..?";
 	next;
 	switch(rand(1,2)) {
 	case 1:
 		mes "[Weird old man]";
-		mes "I was on the way to visit my son who lives in Rune-Midgarts. It's really far away, so I took the airplane, and..";
+		mes "ตอนที่ข้าไปเยี่ยมลูกชายที่อยู่ใน Rune Midgarts. ทางมันค่อนข้างไกลทีเดียว, ดังนั้นข้าจึงนั่งเครื่องบินไป, และ..";
 		next;
 		mes "[Weird old man]";
-		mes "those young people...so noisy.... I was standing but none of them offered me a seat..and they were just talking loudly which bothered everyone.";
+		mes "เจ้าเด็กพวกนั้น...มันทำตัวหนวกหู.... ข้าจึงลุกขึ้นยืนจากที่นั่ง..และตะคอกออกไปด้วยเสียงอันดัง.";
 		next;
 		mes "[Weird old man]";
-		mes "I could lecture them if I were 10 years younger..";
+		mes "ถ้าข้าอายุอ่อนกว่านี้สัก สิบปี..";
 		next;
 		mes "[Weird old man]";
-		mes "Pffff.. Never liked the passing of time....";
+		mes "ฟิ้วววว.. ไม่เคยเลยที่จะปล่อยให้เวลาผ่านไป....";
 		next;
 		mes "[Weird old man]";
-		mes "So, you... what would you do??";
+		mes "งั้น, เจ้า... เจ้าจะทำอะไรได้บ้าง??";
 		next;
 		mes "[Weird old man]";
-		mes "In an open, public place, you are supposed to stay quiet to the destination and offer your seat to the elderly and the infirm.";
+		mes "ในที่สาธารณะ, เจ้าควรทำตัวเรียบร้อยและสละที่นั่งให้แก่คนชราสิ.";
 		next;
 		break;
 	case 2:
 		mes "[Weird old man]";
-		mes "I was on the way to visit my son who lives in Rune-Midgarts. It's really far away, so I took the airplane, and..";
+		mes "ตอนที่ข้าไปเยี่ยมลูกชายที่อยู่ใน Rune Midgarts. ทางมันค่อนข้างไกลทีเดียว, ดังนั้นข้าจึงนั่งเครื่องบินไป, และ..";
 		next;
 		mes "[Weird old man]";
-		mes "those young people...so noisy.... I was standing but none of them offered me a seat..and they were just talking loudly which bothered everyone.";
+		mes "เจ้าเด็กพวกนั้น...มันทำตัวหนวกหู.... ข้าจึงลุกขึ้นยืนจากที่นั่ง..และตะคอกออกไปด้วยเสียงอันดัง.";
 		next;
 		mes "[Weird old man]";
-		mes "I could lecture them if I were 10 years younger..";
+		mes "ถ้าข้าอายุอ่อนกว่านี้สัก สิบปี..";
 		next;
 		mes "[Weird old man]";
-		mes "Pffff.. Never liked the passing of time....";
+		mes "ฟิ้วววว.. ไม่เคยเลยที่จะปล่อยให้เวลาผ่านไป....";
 		next;
 		mes "[Weird old man]";
-		mes "So, you... what would you do??";
+		mes "งั้น, เจ้า... เจ้าจะทำอะไรได้บ้าง??";
 		next;
 		mes "[Weird old man]";
-		mes "In an open, public place, you are supposed to stay quiet to the destination and offer your seat to the elderly and the infirm. Right?";
+		mes "ในที่สาธารณะ, เจ้าควรทำตัวเรียบร้อยและสละที่นั่งให้แก่คนชราสิ. ถูกไหม ?";
 		next;
 		mes "[Weird old man]";
-		mes "Isn't that right?!";
+		mes "หรือไม่ถูกหว่า ?!";
 		next;
 		switch(rand(1,2)) {
 		case 1:
 			mes "[Weird old man]";
-			mes "Oh, and then you know what...?";
+			mes "โอ้, ต่อจากนั้น! เจ้ารู้อะไรไหม...?";
 			next;
 			mes "[Weird old man]";
-			mes "Once I was walking in the town and some boys were spitting on the street and were bothering girls who were passing by...tut tut!";
+			mes "ตอนที่ข้าเดินอยู่ในเมือง, มีเจ้าเด็กผู้ชายถุยน้ำลายลงบนถนน, มันทำให้คนที่ผ่านไปมารู้สึก...ขยะแขยง!";
 			next;
 			mes "[Weird old man]";
-			mes "The world is going to the dogs.. How will it be?? It was even day time when they were doing it..tut tut.";
+			mes "ไหนจะพวกสุนัขอีก.. ที่ปล่อยเรี่ยราด?? มันทำให้วันนั้นข้ารู้สึก..ขยะแขยงทั้งวัน.";
 			next;
 			switch(rand(1,2)) {
 			case 1:
 				mes "[Weird old man]";
-				mes "Oh, and then you know what...?";
+				mes "โอ้, ต่อจากนั้น! เจ้ารู้อะไรไหม...?";
 				next;
 				break;
 			case 2:
 				mes "[Weird old man]";
-				mes "Oh, and then you know what...?";
+				mes "โอ้, ต่อจากนั้น! เจ้ารู้อะไรไหม...?";
 				next;
 				mes "[Weird old man]";
-				mes "Lately young people are not so patient!!!!";
+				mes "เจ้าเด็กพวกนั้นไม่เคยมีความอดทนเลย!!!!";
 				next;
 				mes "[Weird old man]";
-				mes "So often they say they will quit.. they say they can't do more. How will they live life with that kind of mentality..tut tut.";
+				mes "บ่อยครั้ง, ที่พวกนั้นบอกว่าจะเงียบ.. แต่ก็ทำไม่ได้. เพราะใช้ชีวิตแบบนี้ไงถึงได้มีความคิดแบบนั้น...";
 				next;
 				mes "[Weird old man]";
-				mes "It's not easy to find a job. It is very difficult to be hired but then they even cannot stand a week there and leave the work place.";
+				mes "มันไม่ง่ายเลยที่จะหางานทำ, มันเป็นการยากที่จะถูกจ้างงาน. แต่พวกนั้นไม่เคยทำงานถึงสัปดาห์เลย, และออกจากงานในที่สุด.";
 				next;
 				mes "[Weird old man]";
-				mes "How impatient and irresponsible!!";
+				mes "ทำไมถึงใจร้อนและขาดความรับผิดชอบกัน!!";
 				next;
 				mes "[Weird old man]";
-				mes "Oh, and then you know what...?";
+				mes "โอ้, ต่อจากนั้น! เจ้ารู้อะไรไหม...?";
 				next;
 				break;
 			}
 		case 2:
 			mes "[Weird old man]";
-			mes "Oh, and then you know what...?";
+			mes "โอ้, ต่อจากนั้น! เจ้ารู้อะไรไหม...?";
 			next;
 			break;
 		}
 	}
-	mes "^E7A43DThe old man talked over and over again.^000000";
+	mes "^E7A43Dตาแก่บ่นและบ่นมากขึ้น.^000000";
 	next;
 	mes "[Weird old man]";
-	mes "Hm......You are not like common young people, you seem pretty patient too. I like that!!!";
+	mes "หืม......เจ้ามันไม่เหมือนกับคนพวกนั้น, เจ้ามีความอดทนดี. ข้าชอบมันน่ะ!!!";
 	next;
 	mes "[Weird old man]";
-	mes "Now I am just an weak old man but when I was young I was a famous merchant in the town.";
+	mes "ตอนนี้ข้าเริ่มแก่, อ่อนแอ แต่ตอนที่ข้ายังหนุ่ม, ข้าเคยเป็นพ่อค้าที่มีชื่อเสียงในเมืองมาก่อน.";
 	next;
 	mes "[Weird old man]";
-	mes "It's been a while since I stopped the business,";
-	mes "but a former client of mine contacted me and asked me";
+	mes "มันรุ่งเรืองจนกระทั่งข้าเลิกทำธุรกิจ,";
+	mes "แต่ข้าไม่เคยทิ้งพวกลูกค้าเก่าที่เคยติดต่อกันน่ะ.";
 	next;
 	mes "[Weird old man]";
-	mes "If I could get him some unknown objects named 'Will of Warrior', 'Thirst for Blood', and 'Chill of the Dead'.";
+	mes "ถ้าเจ้ามีของที่ชื่อว่า 'Will of Warrior', 'Thirst for Blood', 'Chill of the Dead'.";
 	next;
 	mes "[Weird old man]";
-	mes "I like your politeness which most young people don't have, so if you get me those, I will give you some stuff that I consider as my treasure.";
+	mes "ข้าอาจจะขอแลกกับของในหีบสมบัติของข้าก็ได้ เพราะว่าข้าชอบความอดทนของเจ้า ซึ่งมันไม่เหมือนกับเจ้าเด็กพวกนั้น.";
 	next;
 	while(1) {
-		switch(select("When I gather them, I will come back", "Show me the armors", "Show me the weapons")) {
+		switch(select("เมื่อข้าหามันได้, ข้าจะกลับมา", "แสดง armors ให้ดูหน่อย", "แสดง weapons ให้ดูหน่อย")) {
 		case 1:
 			mes "[Weird old man]";
-			mes "OK, young man. See you later.";
+			mes "OK, เจ้าเด็กน้อย. ค่อยเจอกันใหม่.";
 			close;
 		case 2:
 			mes "[Weird old man]";
-			mes "So, you are interested in armors.";
+			mes "งั้น, เจ้าก็สนใจใน armors ล่ะสิ.";
 			next;
 			mes "[Weird old man]";
-			mes "These are the armors I have.";
+			mes "นี่คือ armors ที่ข้ามีอยู่.";
 			next;
 			for(.@i = 1; .@i < 8; .@i++) {
 				if (((.@i == 1 || .@i == 5) && (countitem(6469) >= 100) && (countitem(6470) >= 50) && (countitem(6471) >= 35)) || 
@@ -158,9 +158,9 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 			}
 			while(1) {
 				switch(select(
-					"Show me other items.",
+					"แสดงของอย่างอื่นให้ดูหน่อย.",
 					""+.@armor$[1]+"Giant Shield^000000",
-					""+.@armor$[2]+"Ancient Book of Geffenia-Water^000000",
+					""+.@armor$[2]+"Acient Book of Geffenia-Water^000000",
 					""+.@armor$[3]+"Bible of Promise(2nd Vol.)^000000",
 					""+.@armor$[4]+"Salvage Cape^000000",
 					""+.@armor$[5]+"Assassin's Handcuffs^000000",
@@ -169,7 +169,7 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 				)) {
 				case 1:
 					mes "[Weird old man]";
-					mes "Have a look.";
+					mes "ได้สิ.";
 					next;
 					.@break = 1;
 					break;
@@ -180,7 +180,7 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 					callsub L_Reward, 2160, 100, 50, 35; //Giant_Shield
 					break;
 				case 3:
-					mes "<<Ancient Book of Geffenia-Water[1]>>";
+					mes "<<Acient Book of Geffenia-Water[1]>>";
 					mes "INT + 1, MDEF + 2. If Original INT point is 120, MATK + 10, MHP + 800.";
 					mes "When equipping with Lacryma Stick, the casting % from Storm Gust, Frost Misty and Jack frost will discount equivalent to 4 times Refine Lv.";
 					mes "Shield / Def 30 / Weight 100 / Required Lv 100 / Socket 1 / for Warlock";
@@ -194,7 +194,7 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 					break;
 				case 5:
 					mes "<<Salvage Cape[0]>>";
-					mes "Allow to use 'Cicada Skin Shed'(Lv 1). Cool down time for this skill will be 30 seconds. When equipping it, SP consumption for using any skill will be doubled, When taking it off, SP - 1200.";
+					mes "Allow to use 'Cicada Skin Shed'(Lv 1). Cool time for this skill will be 30 seconds. When equiping it, SP consumption for using any skill will be doubled, When taking it off, SP - 1200.";
 					mes "Garment / Def 1 / Weight 40 / Required Lv 130 / Socket 0 / for Archbishop";
 					callsub L_Reward, 2582, 300, 300, 400; //Salvage_Cape
 					break;
@@ -225,10 +225,10 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 			break;
 		case 3:
 			mes "[Weird old man]";
-			mes "So, you are interested in weapons.";
+			mes "งั้น, เจ้าก็สนใจใน weapons ล่ะสิ.";
 			next;
 			mes "[Weird old man]";
-			mes "These are the weapons I've got.";
+			mes "นี่คือ weapons ที่ข้ามีอยู่.";
 			next;
 			for(.@i = 1; .@i < 15; .@i++) {
 				if (((.@i == 1) && (countitem(6469) >= 50) && (countitem(6470) >= 100) && (countitem(6471) >= 10)) ||
@@ -243,7 +243,7 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 			}
 			while(1) {
 				switch(select(
-					"Show me other items.",
+					"แสดงของอย่างอื่นให้ดูหน่อย.",
 					""+.@weapon$[1]+"Agent Katar^000000",
 					""+.@weapon$[2]+"Guillotine Katar^000000",
 					""+.@weapon$[3]+"Ygnus Stale^000000",
@@ -261,7 +261,7 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 				)) {
 				case 1:
 					mes "[Weird old man]";
-					mes "Have a look.";
+					mes "ได้สิ.";
 					next;
 					.@break = 1;
 					break;
@@ -316,13 +316,13 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 				case 10:
 					mes "<<Aztoe Nail[0]>>";
 					mes "MATK + 80. For Physical Melee Attack, cast Freezing to the target with a certain chance. The chance is affected by Refine Lv.";
-					mes "Dagger / ATK 160 / Weight 50 / Wind Property / Weapon Lv 4 / Required Lv 110 / Socket 0 / for High Swordman/Merchant/Thief Classes";
+					mes "Dagger / ATK 160 / Weight 50 / Wind Property / Weapon Lv 4 / Required Lv 110 / Socket 0 / for High Swordman/Merchant/Theif Classes";
 					callsub L_Reward, 13069, 50, 100, 35; //Aztoe_Nail
 					break;
 				case 11:
 					mes "<<Scarletto Nail[0]>>";
 					mes "MATK + 80. For Physical Melee Attack, cast Stone curse to the target with a certain chance. The chance is affected by Refine Lv.";
-					mes "Dagger / ATK 160 / Weight 50 / Fire Property / Weapon Lv 4 / Required Lv 110 / Socket 0 / for High Swordman/Merchant/Thief Classes";
+					mes "Dagger / ATK 160 / Weight 50 / Fire Property / Weapon Lv 4 / Required Lv 110 / Socket 0 / for High Swordman/Merchant/Theif Classes";
 					callsub L_Reward, 13070, 50, 100, 35; //Scarletto_Nail
 					break;
 				case 12:
@@ -362,7 +362,7 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 L_Reward:
 	setarray .@amount[0], getarg(1), getarg(2), getarg(3);
 	next;
-	mes ""+ .@amount[0] +" Will of Warrior, "+ .@amount[1] +" Thirst for Blood, "+ .@amount[2] +" Chill of the Dead are needed for the exchange.";
+	mes ""+ .@amount[0] +" Will of Warrior, "+ .@amount[1] +" Thirst for Blood, "+ .@amount[2] +" Chill of the Dead เป็นของที่ใช้แลกน่ะ.";
 	next;
 	if (countitem(6469) >= .@amount[0] && countitem(6470) >= .@amount[1] && countitem(6471) >= .@amount[2]) {
 		if (select("Don't exchange", "Exchange") == 1) {
@@ -377,7 +377,7 @@ L_Reward:
 		delitem 6471, .@amount[2]; //Goast_Chill
 		getitem getarg(0), 1;
 		mes "[Weird old man]";
-		mes "There you go. Visit me sometimes and we could talk.";
+		mes "เอามันไปสิ. อย่าลืมกลับมาเยี่ยมข้าบ้างและเราจะได้พูดคุยกันอีก.";
 		close;
 	}
 	return;
@@ -387,120 +387,120 @@ L_Reward:
 //============================================================
 lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	if ((MaxWeight - Weight) < 1200 || !checkweight(1201, 1)) {
-		mes "^FF0000 Check up your inventory. You got too many items to carry out the quest. ^000000";
+		mes "^FF0000 ช่องว่างในกระเป๋าไม่พอ. ^000000";
 		close;
 	}
 	disable_items;
 	mes "[Pudding]";
 	mes "... .... ...";
 	next;
-	switch(select("Umba umba humbaa", "What are you doing here?", "Which are the equipments found so far?", "Here you are, sir.")) {
+	switch(select("Umba umba humbaa", "เจ้าทำอะไรอยู่ตรงนี้ ?", "ของสวมใส่ที่สามารถหาได้มีอะไรบ้าง ?", "ข้าเอาของมาให้แล้ว, Sir.")) {
 	case 1:
 		emotion ET_FRET;
 		mes "[Pudding]";
-		mes "Hey, excuse me, but I'm not from Umbala! You are so rude.";
+		mes "เฮ้, ขอโทษด้วย, แต่ข้าไม่ได้มาจาก Umbala! เจ้ามันบ้าไปแล้ว.";
 		close;
 	case 2:
 		mes "[Pudding]";
-		mes "As you can see I'm a training Sorcerer, and my name is Pudding.";
+		mes "เจ้ามองเห็นข้าด้วย, ข้าคือ Sorcerer ฝึกหัด, ข้ามีนามว่า Pudding.";
 		next;
 		select("....?");
 		emotion ET_FRET;
 		mes "[Pudding]";
-		mes "... What's that face? I'm starting to feel unpleasant..";
+		mes "... ทำไมทำหน้าแบบนั้น? ข้าเริ่มที่จะรู้สึกไม่พอใจแล้วสิ..";
 		next;
 		emotion ET_OK;
 		mes "[Pudding]";
-		mes "A couple of days ago while I was undergoing discipline, I felt a strange, bizarre tinge. So I followed that and it brought me here.";
+		mes "สองสามวันก่อน, ในขณะที่ข้าเออระเหยลอยไปลอยมา, ข้าก็รู้สึกแปลก, มันแปลกประหลาดมาก. ข้าตามสิ่งนั้นไปและมันก็นำข้ามาที่นี้";
 		next;
-		select("I see.");
+		select("แล้วไง.");
 		mes "[Pudding]";
-		mes "OK, let me continue. I become bothered if you disturb me while I'm talking.";
-		next;
-		mes "[Pudding]";
-		mes "And I entered to the laboratory here in order to investigate and oh gosh! I found those monsters which were like doppelgangers from 'Geffen Dungeon'. It was full of them.";
+		mes "OK, มาต่อกัน. ข้าจะเซ็งมากถ้าเจ้าขัดในขณะที่ข้าพูดอีก.";
 		next;
 		mes "[Pudding]";
-		mes "From those monsters, I could find rare items like '^F2766EWill of Warrior^000000', '^952420Thirst for Blood^000000', and '^88C6F7Chill of the Dead^000000' which you cannot find in any other place.";
+		mes "และข้าก็เข้าไปใน laboratory เพื่อสืบดู, โอ้ ม่าย! ข้าเจอ monsters ที่ดูคล้ายกับ doppelgangers จาก 'Geffen Dungeon'. มีพวกมันเต็มไปหมด.";
+		next;
+		mes "[Pudding]";
+		mes "จาก monsters พวกนั้น, ข้าเจอแรร์ไอเท็มมันคือ '^F2766EWill of Warrior^000000' '^952420Thirst for Blood^000000' '^88C6F7Chill of the Dead^000000' ซึ่งเจ้าไม่สามารถหามันจากที่อื่นได้.";
 		next;
 		emotion ET_QUESTION;
 		mes "[Pudding]";
-		mes "And after many hours of research on my own, I finally figured out a way to use those items. Do you wanna know?";
+		mes "หลังจากที่ข้าค้นคว้าอยู่หลายชั่วโมง, ในที่สุดข้าก็ค้นพบวิธีใช้พวกมัน. เจ้าอยากรู้รึเปล่า ?";
 		next;
-		switch(select("Oh....pardon?!", "Of course, I really wanna know.")) {
+		switch(select("ห้ะ....ขออภัย?!", "แน่นอน, ข้าอยากจะรู้.")) {
 		case 1:
 			emotion ET_HUK, playerattached();
 			emotion ET_FRET;
 			mes "[Pudding]";
-			mes "Oh my! You fell asleep after you asked me something? Well, anyway I feel lazy to explain again so I will just continue.";
+			mes "ชิ! เจ้าหลับอยู่หรือไงถึงพูดอะไรแบบนั้นออกมา ? ดี, ตอนนี้ข้ารู้สึกขี้เกียจเล่าแล้ว เจ้าค่อยมาฟังใหม่ล่ะกัน.";
 			next;
 			break;
 		case 2:
 			emotion ET_SMILE;
 			mes "[Pudding]";
-			mes "Good, I am content that you are listening to my story carefully. Then I will keep explaining.";
+			mes "เยี่ยม, ข้าจะอธิบายเนื้อหาสำคัญให้เจ้าฟัง.";
 			next;
 			break;
 		}
 		mes "[Pudding]";
-		mes "Those '^F2766EWill of Warrior^000000' and '^952420Thirst for Blood^000000'..... are aggressive but warm materials.";
+		mes "พวก '^F2766EWill of Warrior^000000' และ '^952420Thirst for Blood^000000'..... เป็นแร่อุ่นที่เอาไว้ออฟ.";
 		next;
 		mes "[Pudding]";
-		mes "So '^F2766EWill of Warrior^000000' can dwell a special power to the 4th slot of an equipment,";
+		mes "ดังนั้น '^F2766EWill of Warrior^000000' จะเอาไว้ออฟในช่องที่ 4,";
 		next;
 		mes "[Pudding]";
-		mes "and '^952420Thirst for Blood^000000' can dwell a special power to the 3rd slot.";
+		mes "และ '^952420Thirst for Blood^000000' จะเอาไว้ออฟในช่องที่ 3.";
 		next;
 		mes "[Pudding]";
-		mes "Whereas!!!";
-		mes "'^88C6F7Chill of the Dead^000000' is a cold type material";
-		mes "which allows the return of power from '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000' so makes the equipment no longer enchanted.";
+		mes "ส่วน!!!";
+		mes "'^88C6F7Chill of the Dead^000000' เป็นแร่เย็น.";
+		mes "มันเอาไว้ลบพลังจาก '^F2766EWill of Warrior^000000' หรือ '^952420Thirst for Blood^000000' ให้กลับเป็น 'ศูนย์'.";
 		next;
 		mes "[Pudding]";
-		mes "What do you say? Doesn't it sound interesting? But, there's a problem...";
+		mes "เจ้าว่าอะไรน่ะ ? น้ำเสียงดูไม่สนใจเลย ? แต่, นั่นอาจจะเป็นปัญหาได้...";
 		next;
 		mes "[Pudding]";
-		mes "Since those materials can only be found from the monsters in the Lab., the special power also can be dwelt into certain equipments which can be obtained from the Lab.";
+		mes "แร่พวกนั้นสามารถหาได้จากพวก monsters ในห้องแลป., พลังพิเศษพวกนั้นสามารถใส่ในของสวมใส่ที่ได้จากห้องแลปได้.";
 		next;
-		select("So what's the conclusion?");
+		select("สรุปคือ ?");
 		emotion ET_QUESTION, playerattached();
 		emotion ET_FRET;
 		mes "[Pudding]";
-		mes "Gee.. I told you not to cut while I talk, didn't I? Well, I will answer that because that's important.";
+		mes "กี้..ข้าบอกว่าอย่าขัดเวลาข้าพูดไง ? ดี, ข้าจะบอกสิ่งสำคัญให้.";
 		next;
 		mes "[Pudding]";
-		mes "If you bring me 10 '^F2766EWill of Warrior^000000' or 10 '^952420Thirst for Blood^000000', I will dwell some power to certain equipments that you can find in the Lab..";
+		mes "ถ้าเจ้านำ 10 '^F2766EWill of Warrior^000000' หรือ 10 '^952420Thirst for Blood^000000' มาให้ข้า, ข้าจะเสริมพลังลงไปในของสวมใส่ให้..";
 		next;
 		mes "[Pudding]";
-		mes "And if you are not satisfied with the power you got, bring me 10 '^88C6F7Chill of the Dead^000000', and I will take off that power.";
+		mes "และถ้าเจ้าไม่ชอบออฟที่ได้ไป, นำ 10 '^88C6F7Chill of the Dead^000000' มาให้ข้า, และข้าจะลบออฟออกให้.";
 		next;
 		mes "[Pudding]";
-		mes "What do you say? Having both options.....quite nice, huh?";
+		mes "ว่ายังไงน่ะ ? ก็.....ดี, หือ ?";
 		next;
 		mes "[Pudding]";
-		mes "If you obtain '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000', and obtain also equipment which is capable to accept their power, bring them to me. I will be waiting.";
+		mes "ดังนั้นถ้าเจ้ามี '^F2766EWill of Warrior^000000' หรือ '^952420Thirst for Blood^000000', และของสวมใส่จากห้องแลป, นำมันมาให้ข้า. ข้าจะรออยู่ตรงนี้.";
 		close;
 	case 3:
 		mes "[Pudding]";
-		mes "Hm.... Equipment which are discovered so far are....";
+		mes "หืม.... ของสวมใส่ที่สามารถหาได้....";
 		next;
-		mes "- checking -";
-		mes "Pudding takes some paper out from a pocket.";
+		mes "- ตรวจสอบ -";
+		mes "Pudding นำกระดาษออกจากกระเป๋า.";
 		next;
 		mes "[Pudding]";
-		mes "Let me see.. the equipments discovered until now are....";
-		mes "7 Armors, 14 Weapons.";
+		mes "เท่าที่เห็น.. ของสวมใส่ที่สามารถหาได้ตอนนี้มี....";
+		mes "6 Armors, 14 Weapons.";
 		next;
 		while(1) {
-			switch(select("Ok, I don't have to know more.", "7 Armors", "14 Weapons")) {
+			switch(select("Ok, ข้าไม่รู้มากกว่านี้แล้ว.", "6 Armors", "14 Weapons")) {
 			case 1:
 				mes "[Pudding]";
-				mes "If you obtain '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000', and obtain also equipment which is capable to accept their power, bring them to me. I will be waiting.";
+				mes "ดังนั้นถ้าเจ้ามี '^F2766EWill of Warrior^000000' หรือ '^952420Thirst for Blood^000000', และของสวมใส่จากห้องแลป, นำมันมาให้ข้า. ข้าจะรออยู่ตรงนี้.";
 				close;
 			case 2:
 				mes "< Armor List >";
 				mes "Giant Shield[1]";
-				mes "Ancient Book of Geffenia-Water[1]";
+				mes "Acient Book of Geffenia-Water[1]";
 				mes "Bible of Promise(2nd Vol.)[1]";
 				mes "Salvage Cape[0]";
 				mes "Assassin's Handcuffs[1]";
@@ -508,7 +508,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 				mes "Ancient Gold Decoration[1]";
 				next;
 				mes "[Pudding]";
-				mes "So far these are the Armors discovered. Do you wanna see other things?";
+				mes "นี่คือ Armors ที่ค้นพบแล้ว. อยากจะรู้อะไรอีกไหม ?";
 				next;
 				break;
 			case 3:
@@ -529,7 +529,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 				mes "Creeper Bow[2]";
 				next;
 				mes "[Pudding]";
-				mes "So far these are the Weapons discovered. Do you wanna see other things?";
+				mes "นี่คือ Weapons ที่ค้นพบแล้ว. อยากจะรู้อะไรอีกไหม ?";
 				next;
 				break;
 			}
@@ -538,12 +538,12 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 4:
 		emotion ET_SPARK;
 		mes "[Pudding]";
-		mes "Ohhhhh Have you brought them?";
+		mes "โอ้อออ เจ้ามีมันแล้วรึ ?";
 		next;
 		break;
 	}
 	mes "[Pudding]";
-	mes "OKAY! In which equipment you want to dwell the power?";
+	mes "OKAY! ของสวมใส่ไหนที่เจ้าอยากจะออฟ ?";
 	next;
 	setarray .@parts[0], EQI_ARMOR, EQI_HAND_L, EQI_HAND_R, EQI_GARMENT, EQI_ACC_L, EQI_ACC_R, EQI_HEAD_TOP;
 	for(.@i = 0; .@i < 7; .@i++) {
@@ -575,16 +575,16 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 			.@equipped$[.@i] = getequipname(.@parts[.@i]);
 		}
 	}
-	switch(select("I changed my mind.", .@equipped$[0], .@equipped$[1], .@equipped$[2], .@equipped$[3], .@equipped$[4], 
+	switch(select("ข้าเปลี่ยนใจแล้ว.", .@equipped$[0], .@equipped$[1], .@equipped$[2], .@equipped$[3], .@equipped$[4], 
 	.@equipped$[5], .@equipped$[6])) {
 	case 1:
 		mes "[Pudding]";
-		mes "Well, I was looking forward to doing it, but I cannot help then.";
+		mes "เยี่ยม, ข้ามองแต่ข้างหน้าเท่านั้น.";
 		close;
 	case 2:
 		if (!getequipisequiped(EQI_ARMOR)) {
 			mes "[Pudding]";
-			mes "Hey..Where is the armor?";
+			mes "เฮ้..ไหนล่ะ armor?";
 			close;
 		}
 		.@part = EQI_ARMOR;
@@ -592,7 +592,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 3:
 		if (!getequipisequiped(EQI_HAND_L)) {
 			mes "[Pudding]";
-			mes "Well.. You have nothing equipped on the left hand.";
+			mes "เยี่ยม.. เจ้าไม่ได้ใส่มันที่มือซ้าย.";
 			close;
 		}
 		.@part = EQI_HAND_L;
@@ -600,7 +600,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 4:
 		if (!getequipisequiped(EQI_HAND_R)) {
 			mes "[Pudding]";
-			mes "Well.. You have nothing equipped on the right hand.";
+			mes "เยี่ยม.. เจ้าไม่ได้ใส่มันที่มือขวา.";
 			close;
 		}
 		.@part = EQI_HAND_R;
@@ -608,7 +608,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 5:
 		if (!getequipisequiped(EQI_GARMENT)) {
 			mes "[Pudding]";
-			mes "Um.... Where's your robe?";
+			mes "อืม.... ไหนล่ะ robe?";
 			close;
 		}
 		.@part = EQI_GARMENT;
@@ -616,7 +616,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 6:
 		if (!getequipisequiped(EQI_ACC_L)) {
 			mes "[Pudding]";
-			mes ".....Where's the accessory?";
+			mes ".....ไหนล่ะ accessory?";
 			close;
 		}
 		.@part = EQI_ACC_L;
@@ -624,7 +624,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 7:
 		if (!getequipisequiped(EQI_ACC_R)) {
 			mes "[Pudding]";
-			mes ".....Where's the accessory?";
+			mes ".....ไหนล่ะ accessory?";
 			close;
 		}
 		.@part = EQI_ACC_R;
@@ -632,7 +632,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 8:
 		if (!getequipisequiped(EQI_HEAD_TOP)) {
 			mes "[Pudding]";
-			mes "Hey.. Are you not wearing any helm?";
+			mes "เฮ้.. เจ้าไม่ได้ใส่ Helm?";
 			close;
 		}
 		.@part = EQI_HEAD_TOP;
@@ -640,7 +640,6 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	}
 	.@refine_count = getequiprefinerycnt(.@part);
 	.@equip_item = getequipid(.@part);
-	setarray .@equip_card[0], getequipcardid(.@part,0), getequipcardid(.@part,1), getequipcardid(.@part,2), getequipcardid(.@part,3);
 	.@lhz_max_num = 4000;
 	if (.@equip_item == 13069 || .@equip_item == 1291 || .@equip_item == 1392 || 
 	    .@equip_item == 1393 || .@equip_item == 1435 || .@equip_item == 1490 || 
@@ -660,51 +659,51 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 			.@lhz_max_num = 4200;
 	} else {
 		mes "[Pudding]";
-		mes "First! I need to check if this equipment can accept the power.";
+		mes "ก่อนหน้านั้น! ข้าขอตรวจดูก่อนว่ามันออฟได้.";
 		next;
 		specialeffect2 EF_SPHERE;
 		progressbar "ffff00", 2;
 		specialeffect2 EF_SUI_EXPLOSION;
 		emotion ET_CRY;
 		mes "[Pudding]";
-		mes "Hm.... This equipment cannot accept the power of '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000'.";
+		mes "หืม.... มันไม่สามารถรับพลังจาก '^F2766EWill of Warrior^000000' หรือ '^952420Thirst for Blood^000000' ได้.";
 		close;
 	}
 	emotion ET_DELIGHT;
 	mes "[Pudding]";
-	mes "OHHH.. This equipment could accept the power of '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000'.";
+	mes "โอ้อออ.. มันสามารถรับพลังจาก '^F2766EWill of Warrior^000000' หรือ '^952420Thirst for Blood^000000' ได้.";
 	next;
 	if (countitem(6469) >= 10)
-		.@menu_in$[1] = "Dwell the power of '^F2766EWill of Warrior^000000'";
+		.@menu_in$[1] = "ใช้พลังจาก '^F2766EWill of Warrior^000000'";
 	else
-		.@menu_in$[1] = "Not enough ^999999'Will of Warrior'^000000";
+		.@menu_in$[1] = "มี ^999999'Will of Warrior'^000000 ไม่พอ";
 
 	if (countitem(6470) >= 10)
-		.@menu_in$[2] = "Dwell the power of '^952420Thirst for Blood^000000'";
+		.@menu_in$[2] = "ใช้พลังจาก '^952420Thirst for Blood^000000'";
 	else
-		.@menu_in$[2] = "Not enough ^999999'Thirst for Blood'^000000";
+		.@menu_in$[2] = "มี ^999999'Thirst for Blood'^000000 ไม่พอ";
 
 	if (countitem(6471) >= 10)
-		.@menu_in$[3] = "Consume the '^88C6F7Chill of the Dead^000000'";
+		.@menu_in$[3] = "ใช้พลังจาก the '^88C6F7Chill of the Dead^000000'";
 	else
-		.@menu_in$[3] = "Not enough ^999999'Chill of the Dead'^000000";
+		.@menu_in$[3] = "มี ^999999'Chill of the Dead'^000000 ไม่พอ";
 	mes "[Pudding]";
-	mes "OK! Which power do you want to dwell into your equipment?";
+	mes "OK! เลือกพลังที่เจ้าจะใส่ในของสวมใส่ ?";
 	next;
-	switch(select("I say no! I don't need that!!", .@menu_in$[1], .@menu_in$[2], .@menu_in$[3])) {
+	switch(select("ม่าย! ข้าไม่ต้องการทำ!!", .@menu_in$[1], .@menu_in$[2], .@menu_in$[3])) {
 	case 1:
 		mes "[Pudding]";
-		mes "Ohhh.. I was looking forward to doing it, but it's all up to you......";
+		mes "โอ้อออ.. ข้ามองแต่ข้างหน้าเท่านั้น......";
 		close;
 	case 2:
 		if (countitem(6469) < 10) {
 			mes "[Pudding]";
-			mes "Not enough '^F2766EWill of Warrior^000000'. You need to bring 10 '^F2766EWill of Warrior^000000'";
+			mes "มี '^F2766EWill of Warrior^000000' ไม่พอ, เจ้าต้องมี 10 '^F2766EWill of Warrior^000000'";
 			close;
 		}
-		else if (.@equip_card[3] > 0) {
+		else if (getequipcardid(.@part, 3) > 0) {
 			mes "[Pudding]";
-			mes "This equipment already has the power of '^F2766EWill of Warrior^000000'.";
+			mes "พร้อมที่จะใช้พลังจาก '^F2766EWill of Warrior^000000'.";
 			close;
 		} else {
 			.@socket_type = 4;
@@ -713,12 +712,12 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 3:
 		if (countitem(6470) < 10) {
 			mes "[Pudding]";
-			mes "Not enough '^952420Thirst for Blood^000000'. You need to bring 10 '^952420Thirst for Blood^000000'";
+			mes "มี '^952420Thirst for Blood^000000' ไม่พอ, เจ้าต้องมี 10 '^952420Thirst for Blood^000000'";
 			close;
 		}
-		else if (.@equip_card[2] > 0) {
+		else if (getequipcardid(.@part, 2) > 0) {
 			mes "[Pudding]";
-			mes "This equipment already has the power of '^952420Thirst for Blood^000000'.";
+			mes "พร้อมที่จะใช้พลังจาก '^952420Thirst for Blood^000000'.";
 			close;
 		} else {
 			.@socket_type = 3;
@@ -727,87 +726,84 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	case 4:
 		// Enchant Removal
 		if (countitem(6471) < 10) {
-			.@menu_clear$[1] = "^999999Not enough 'Chill of the Dead'^000000";
-			.@menu_clear$[2] = "^999999Not enough 'Chill of the Dead'^000000";
+			.@menu_clear$[1] = "^999999มี 'Chill of the Dead'^000000 ไม่พอ";
+			.@menu_clear$[2] = "^999999มี 'Chill of the Dead'^000000 ไม่พอ";
 			.@4thzptsodyd = 1;
 			.@3thzptsodyd = 1;
 		} else {
-			if (.@equip_card[3] > 0) {
-				.@menu_clear$[1] = "Remove the power of '^F2766EWill of Warrior^000000'";
+			if (getequipcardid(.@part, 3) > 0) {
+				.@menu_clear$[1] = "ลบออฟของ '^F2766EWill of Warrior^000000' แล้ว";
 			} else {
-				.@menu_clear$[1] = "^999999There's no power to remove^000000";
+				.@menu_clear$[1] = "^999999ไม่มีออฟที่ถูกลบ^000000";
 				.@4thzptsodyd = 1;
 			}
-			if (.@equip_card[2] > 0) {
-				.@menu_clear$[2] = "Remove the power of '^952420Thirst for Blood^000000'";
+			if (getequipcardid(.@part, 2) > 0) {
+				.@menu_clear$[2] = "ลบออฟของ '^952420Thirst for Blood^000000' แล้ว";
 			} else {
-				.@menu_clear$[2] = "^999999There's no power to remove^000000";
+				.@menu_clear$[2] = "^999999ไม่มีออฟที่ถูกลบ^000000";
 				.@3thzptsodyd = 1;
 			}
 		}
 		mes "[Pudding]";
-		mes "Alright, which power do you want to remove?";
+		mes "เอาล่ะ, เจ้าอยากลบหรือไม่ ?";
 		next;
-		.@menu = select("No, I don't wanna remove any.", .@menu_clear$[1], .@menu_clear$[2]);
+		.@menu = select("ไม่, ข้าจะไม่ลบออฟ.", .@menu_clear$[1], .@menu_clear$[2]);
 		switch(.@menu){
 		case 1:
 			mes "[Pudding]";
-			mes "Really? Ok. I got it..";
+			mes "แน่น่ะ ? Ok...";
 			close;
 		case 2:
 		case 3:
 			if (countitem(6471) < 10) {
 				mes "[Pudding]";
-				mes "Not enough '^88C6F7Chill of the Dead^000000'. You need to bring 10 '^88C6F7Chill of the Dead^000000'";
+				mes "มี '^88C6F7Chill of the Dead^000000' ไม่พอ, เจ้าต้องมี 10 '^88C6F7Chill of the Dead^000000'";
 				close;
 			}
 			if ( (.@menu==3 && .@3thzptsodyd == 1) || (.@menu==2 && .@4thzptsodyd == 1) ) {
 				mes "[Pudding]";
-				mes "This equipment didn't get any special power.";
+				mes "ของสวมใส่ไม่เคยออฟมาก่อน.";
 				close;
 			}
-			specialeffect EF_BEGINSPELL2;
-			progressbar "ffff00", 2;
-			specialeffect2 EF_FROSTWEAPON;
-			delitem 6471, 10; //Goast_Chill
-
-			// anti-hack
-			if (callfunc("F_IsEquipIDHack", .@part, .@equip_item) || callfunc("F_IsEquipCardHack", .@part, .@equip_card[0], .@equip_card[1], .@equip_card[2], .@equip_card[3]) || callfunc("F_IsEquipRefineHack", .@part, .@refine_count))
-				close;
-
+			setarray .@equip_card[0], getequipcardid(.@part,0), getequipcardid(.@part,1), getequipcardid(.@part,2), getequipcardid(.@part,3);
 			if (.@menu == 2)
 				.@equip_card[3] = 0;
 			else
 				.@equip_card[2] = 0;
+			.@equip_item = getequipid(.@part);
+			specialeffect EF_BEGINSPELL2, AREA, "Sorcerer#Bio4Reward";
+			progressbar "ffff00", 2;
+			specialeffect2 EF_FROSTWEAPON;
+			delitem 6471, 10; //Goast_Chill
 			delequip .@part;
 			getitem2 .@equip_item, 1, 1, .@refine_count, 0, .@equip_card[0], .@equip_card[1], .@equip_card[2], .@equip_card[3];
 			mes "[Pudding]";
 			if (.@menu == 3)
-				mes "The power of '^952420Thirst for Blood^000000' has been perfectly removed.";
+				mes "ออฟจาก '^952420Thirst for Blood^000000' ถูกลบแล้ว.";
 			else
-				mes "The power of '^F2766EWill of Warrior^000000' has been perfectly removed.";
+				mes "ออฟจาก '^F2766EWill of Warrior^000000' ถูกลบแล้ว.";
 			close;
 		}
 	}
 	mes "[Pudding]";
-	mes "Before I dwell the power, let me caution you.";
+	mes "ก่อนที่จะออฟ, อยากจะเตือนอะไรสักหน่อย.";
 	next;
 	mes "[Pudding]";
-	mes "While I dwell the power of '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000', the equipment could be not capable of accepting it and will be destroyed as a result..";
+	mes "การเสริมพลังจาก '^F2766EWill of Warrior^000000' หรือ '^952420Thirst for Blood^000000' นั้น, ถ้าออฟไม่ติดของจะหายไป..";
 	next;
 	mes "[Pudding]";
-	mes "^9D2628If the equipment is destroyed, you will also lose the cards you inserted in it, and the refine Lv will be removed too.^000000";
+	mes "^9D2628เมื่อมันหายไป, เจ้าจะเสียการ์ดที่ใส่ไปด้วย, และค่าตีบวกด้วย.^000000";
 	next;
 	mes "[Pudding]";
-	mes "Alright. Do you really wish to dwell the power into the equipment?";
+	mes "เอาล่ะ. เจ้าพร้อมที่จะออฟหรือยัง ?";
 	next;
-	if (select("Wait, I will think again.", "Sure, carry on.") == 1) {
+	if (select("แป๊ป, ขอคิดก่อน.", "แน่นอน, ทำเลย.") == 1) {
 		mes "[Pudding]";
-		mes "OK. I hope to see you again.";
+		mes "OK. ข้าหวังว่าเราคงเจอกันอีก.";
 		close;
 	}
 	mes "[Pudding]";
-	mes "I hope you made the correct decision...";
+	mes "ข้าจะให้เจ้าเลือกออฟ...";
 	next;
 	if (.@socket_type >= 3) {
 		switch(.@type){
@@ -960,32 +956,29 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 				else                 .@enchant = 0;
 			break;
 		}
-		specialeffect EF_BEGINSPELL3;
+		setarray .@equip_card[0], getequipcardid(.@part,0),getequipcardid(.@part,1),getequipcardid(.@part,2),getequipcardid(.@part,3);
+		.@equip_card[(.@socket_type-1)] = .@enchant;
+		.@equip_item = getequipid(.@part);
+		specialeffect EF_BEGINSPELL3, AREA, "Sorcerer#Bio4Reward";
 		progressbar "ffff00", 2;
 		if (.@socket_type == 3)
 			delitem 6470, 10; //Blood_Thirst
 		else
 			delitem 6469, 10; //Will_Of_Warrior
-
-		// anti-hack
-		if (callfunc("F_IsEquipIDHack", .@part, .@equip_item) || callfunc("F_IsEquipCardHack", .@part, .@equip_card[0], .@equip_card[1], .@equip_card[2], .@equip_card[3]) || callfunc("F_IsEquipRefineHack", .@part, .@refine_count))
-			close;
-
-		.@equip_card[(.@socket_type-1)] = .@enchant;
 		delequip .@part;
 		
 		if (.@enchant == 0){
 			specialeffect2 EF_SUI_EXPLOSION;
 			emotion ET_OTL;
 			mes "[Pudding]";
-			mes "...Well....the equipment could not accept the power of "+((.@socket_type==3)?"'^952420Thirst for Blood^000000'":"'^F2766EWill of Warrior^000000'")+" and it got destroyed.";
+			mes "...เยี่ยม....มันไม่สามารถรับพลังจาก "+((.@socket_type==3)?"'^952420Thirst for Blood^000000'":"'^F2766EWill of Warrior^000000'")+" ได้และมันแตกไปแล้ว.";
 			close;
 		} else {
 			specialeffect2 EF_FIREHIT;
 			getitem2 .@equip_item, 1, 1, .@refine_count, 0, .@equip_card[0], .@equip_card[1], .@equip_card[2], .@equip_card[3];
 			emotion ET_DELIGHT;
 			mes "[Pudding]";
-			mes "Fortunately, the power of "+((.@socket_type==3)?"'^952420Thirst for Blood^000000'":"'^F2766EWill of Warrior^000000'")+" has been dwelt well into your equipment...";
+			mes "โชคดีจริงๆ มันสามารถรับพลังจาก "+((.@socket_type==3)?"'^952420Thirst for Blood^000000'":"'^F2766EWill of Warrior^000000'")+" ได้...";
 			close;
 		}
 	}
